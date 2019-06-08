@@ -387,8 +387,8 @@ function typeWriter() {
         if (myTxt.charAt(Tik) == "@") {
             var bdika = document.getElementById("Masov").innerHTML;
             $("#Masov").html(bdika + "<br/>");
-            myMasovText += '<br/>';
-            if (myMasovText != "" && myLayer>3) {
+            myMasovText += ' ';
+            if (myMasovText != " " && myLayer>3) {
                 var myHtml = '<div class="row message-body">';
                 myHtml += '<div class="col-sm-12 message-main-sender">';
                 myHtml += '<div class="sender">';
